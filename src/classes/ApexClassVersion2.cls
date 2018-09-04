@@ -1,0 +1,1 @@
+public class ApexClassVersion2 {public void printTest(){System.debug(1);}}

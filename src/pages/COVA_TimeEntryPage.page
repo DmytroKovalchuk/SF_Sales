@@ -1,0 +1,111 @@
+<apex:page controller="COVA_TimeEntryPageController" docType="html-5.0" sidebar="false">    
+    <script type="text/javascript">
+    function showSuccess () {
+        alert('{!$Label.COVA_SucceseMessage}');
+        changeTasks();
+    }
+    function showLoadingProgress(show, contentLoading, contentLoaded) {
+        if (show) {
+            document.getElementById(contentLoading).style.display = 'block';
+            document.getElementById(contentLoaded).style.display = 'none';
+        } else {
+            document.getElementById(contentLoading).style.display = 'none';
+            document.getElementById(contentLoaded).style.display = 'block';
+        }
+    }
+    </script>
+    <apex:form >
+        <apex:actionStatus id="asLoadingResults" onstart="showLoadingProgress(true,'selectedFieldsLoadingIndicator','covaTableResult')" onstop="showLoadingProgress(false,'selectedFieldsLoadingIndicator','covaTableResult')" />
+        <apex:actionFunction name="deleteRow" action="{!deleteRow}" reRender="covaInputTable" status="asLoadingResults" >
+            <apex:param name="objectToRemove" value="val" assignTo="{!wrapObjectIdToRemove}" />
+        </apex:actionFunction>
+        <apex:actionFunction name="changeTasks" action="{!tableFill}" reRender="covaInputTable" status="asLoadingResults" >
+            <apex:param assignTo="{!sizeToShow}" value="" name="sizeOfShow" />
+        </apex:actionFunction> 
+        <apex:pageBlock >            
+            <table style="width=50%;">                
+                <tr>                    
+                    <apex:outputPanel >
+                        <td>
+                            <table>
+                                <tr colspan="2" > 
+                                    <td width="70" style="marging-left=50px;">                                  
+                                        {!$Label.COVA_Consultant}                               
+                                    </td>
+                                    <td width="200">
+                                        <apex:selectList value="{!validConsultant}" size="1" onchange="changeTasks(0);" required="true"> 
+                                            <apex:selectOptions value="{!consultants}" ></apex:selectOptions>                                                
+                                        </apex:selectList>                                
+                                    </td>                            
+                                </tr>                    
+                            </table>                        
+                        </td>
+                        <td>
+                            <table>
+                                <tr rowspan="2">
+                                    <td width="100">
+                                        {!$Label.COVA_SelectStartDate}
+                                    </td>
+                                    <td>
+                                        <apex:input type="auto" value="{!startDate}" /> 
+                                    </td>                            
+                                </tr>
+                            </table>                         
+                        </td>
+                    </apex:outputPanel>
+                </tr>                
+                <th>
+                    <div id="selectedFieldsLoadingIndicator" style="position:relative; display:none; height:200px;width: 1000px" class="waitingSearchDiv">
+                        <div class="waitingHolder" style="width: 95px; top: 59.8px;">
+                            <apex:image value="/img/loading.gif" styleclass="waitingImage" />                            
+                            {!$Label.COVA_Loading}                           
+                        </div>
+                    </div>
+                    <div id="covaTableResult" height="200px" width="1000px" >
+                        <apex:outputPanel id="covaInputTable" style="overflow-Y:auto;height:200px;width:1000px;" layout="block"   > 
+                        <apex:pageBlockTable value="{!listOfWrappers}" var="wrap" >
+                            <apex:column headerValue="{!$Label.COVA_ProjectTask}" >
+                                <apex:outputText value="{!wrap.projectAndTask}" rendered="{!wrap.projectAndTask != null}"/>
+                            </apex:column>
+                            <apex:column headerValue="{!$Label.COVA_NonBillable}">
+                                <apex:inputCheckbox value="{!wrap.isBilliable}" rendered="{!wrap.projectAndTask != null}"  />
+                            </apex:column>
+                            <apex:column headerValue="{!$Label.COVA_DayMonday}" >
+                                <apex:inputField type="number" value="{!wrap.spendTime[0].COVA_TimeSpend__c}" rendered="{!wrap.projectAndTask != null}" html-min="0" html-max="24"/>
+                            </apex:column>
+                            <apex:column headerValue="{!$Label.COVA_DayTuesday}">
+                                <apex:inputField type="number" value="{!wrap.spendTime[1].COVA_TimeSpend__c}" rendered="{!wrap.projectAndTask != null}" html-min="0" html-max="24"/>
+                            </apex:column>
+                            <apex:column headerValue="{!$Label.COVA_DayWednesday}">
+                                <apex:inputField type="number" value="{!wrap.spendTime[2].COVA_TimeSpend__c}" rendered="{!wrap.projectAndTask != null}" html-min="0" html-max="24"/>
+                            </apex:column>
+                            <apex:column headerValue="{!$Label.COVA_DayThursday}">
+                                <apex:inputField type="number" value="{!wrap.spendTime[3].COVA_TimeSpend__c}" rendered="{!wrap.projectAndTask != null}" html-min="0" html-max="24"/>
+                            </apex:column>
+                            <apex:column headerValue="{!$Label.COVA_DayFriday}" >
+                                <apex:inputField type="number" value="{!wrap.spendTime[4].COVA_TimeSpend__c}" rendered="{!wrap.projectAndTask != null}" html-min="0" html-max="24"/>
+                            </apex:column>
+                            <apex:column headerValue="{!$Label.COVA_DaySaturday}">
+                                <apex:inputField type="number" value="{!wrap.spendTime[5].COVA_TimeSpend__c}" rendered="{!wrap.projectAndTask != null}" html-min="0" html-max="24"/>
+                            </apex:column>
+                            <apex:column headerValue="{!$Label.COVA_DaySunday}" > 
+                                <apex:inputField type="number" value="{!wrap.spendTime[6].COVA_TimeSpend__c}" rendered="{!wrap.projectAndTask != null}" html-min="0" html-max="24"/>
+                            </apex:column>
+                            <apex:column >
+                                <apex:commandLink onclick="deleteRow('{!wrap.projectAndTask}');return false;" >
+                                    <apex:image value="/img/func_icons/remove12_on.gif"/> 
+                                </apex:commandLink>                                
+                            </apex:column>
+                        </apex:pageBlockTable>
+                    </apex:outputPanel>  
+                    </div>                                           
+                </th>          
+            </table>
+            <div align="center">               
+                <apex:commandButton action="{!save}" value="{!$Label.COVA_Save}" oncomplete="showSuccess();" status="asLoadingResults"/>
+                <apex:commandButton action="{!addrow}" value="{!$Label.COVA_AddRow}" reRender="covaInputTable" status="asLoadingResults" /> 
+                 <apex:commandButton action="{!createTrigger}" value="Create trigger" reRender="covaInputTable" status="asLoadingResults" />  
+            </div>              
+        </apex:pageBlock>
+    </apex:form>    
+</apex:page>

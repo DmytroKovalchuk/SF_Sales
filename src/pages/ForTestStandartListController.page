@@ -1,0 +1,12 @@
+<!--
+ - Created by dkovalchuk on 29-Nov-17.
+ -->
+
+<apex:page standardController="Contact" recordSetVar="accounts" tabstyle="contact" sidebar="false">
+    <apex:pageBlock >
+        <apex:pageBlockTable value="{!accounts}" var="a">
+            <apex:column value="{!a.LastName}"/>
+            <apex:column value="{!a.Id}"/>
+        </apex:pageBlockTable>
+    </apex:pageBlock>
+</apex:page>

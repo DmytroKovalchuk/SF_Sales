@@ -1,0 +1,72 @@
+<apex:page controller="PRSD_TestInvestigateController" docType="html-5.0" >    
+    <title>jQuery UI Droppable - Default functionality</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"/>
+    <link rel="stylesheet" href="/resources/demos/style.css"/>
+    <style>
+        #draggable { width: 100px; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; }
+        #droppable { width: 150px; height: 150px; padding: 0.5em; float: left; margin: 10px; }
+        .toggler { width: 500px; height: 200px; position: relative; }
+        #button { padding: .5em 1em; text-decoration: none; }
+        #effect { width: 240px; height: 170px; padding: 0.4em; position: relative; background: #fff; }
+        #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+    </style>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+    $( function() {
+        $( "#draggable" ).draggable();
+        $( "#droppable" ).droppable({
+            drop: function( event, ui ) {
+                $( this )
+                .addClass( "ui-state-highlight" )
+                .find( "p" )
+                .html( "Dropped!" );
+            }
+        });
+    } );
+    
+    $( function() {
+        var state = true;
+        $( "#button" ).on( "click", function() {
+            if ( state ) {
+                $( "#effect" ).animate({
+                    backgroundColor: "#aa0000",
+                    color: "#fff",
+                    width: 500
+                }, 1000 );
+            } else {
+                $( "#effect" ).animate({
+                    backgroundColor: "#fff",
+                    color: "#000",
+                    width: 240
+                }, 1000 );
+            }
+            state = !state;
+        });
+    } );
+    </script>
+    
+        <apex:pageBlock >        
+            <div id="draggable" class="ui-widget-content">
+                <p>Drag me to my target</p>
+            </div>
+            
+            <div id="droppable" class="ui-widget-header">
+                <p>Drop here</p>
+            </div>  
+            
+            
+        </apex:pageBlock>
+        <apex:pageBlock id="test" >
+            <button id="button" class="ui-state-default ui-corner-all">Toggle Effect</button>
+            <div class="toggler">
+                <div id="effect" class="ui-widget-content ui-corner-all">
+                    <h3 class="ui-widget-header ui-corner-all">Animate</h3>
+                    <p>
+                        Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+                    </p>
+                </div>
+            </div>
+        </apex:pageBlock>        
+   
+</apex:page>

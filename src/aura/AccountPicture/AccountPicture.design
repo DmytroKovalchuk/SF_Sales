@@ -1,0 +1,7 @@
+<!--
+ - Created by dkovalchuk on 14-Mar-18.
+ -->
+
+<design:component label="AccountPicture">
+    <design:attribute name="message" label="Message"/>
+</design:component>

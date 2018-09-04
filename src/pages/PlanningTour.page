@@ -1,0 +1,63 @@
+<apex:page controller="ControllerTour" docType="html-5.0" >
+    <apex:form >
+        <apex:pageBlock >    
+            <!--
+<div align="left" >
+<apex:commandButton action="{!selectAll}" value="Change all"/>
+</div>
+//-->          
+            <apex:outputPanel layout="block">
+                <label for="checkbox"></label>
+                <input id="checkbox" type="checkbox"
+                       onclick="selectAll(this);"/>
+            </apex:outputPanel>
+            
+            <apex:pageBlockTable value="{!controllerList}" var="con" id="table">                
+                <apex:column headerValue="">                    
+                    <apex:inputCheckbox value="{!con.isSelect}"/>
+                </apex:column>
+                <apex:column value="{!con.oneContact.Name}"/>
+                <apex:column headerValue="Order for choosing" > 
+                    <apex:input type="auto" value="{!con.order}" html-max="{!size}" html-min="1" />
+                </apex:column>
+            </apex:pageBlockTable>
+            
+            <apex:pageBlockSection >
+                <apex:input type="auto" value="{!startDateTime}" label="Choose first visit starts"/>
+                <apex:input type="auto" value="{!endDateTime}" label="Choose last visit ends"/>
+                <apex:input type="auto" value="{!duration}"  html-max="480" html-min="0" html-default="5" label="Choose duration of every visit"/>
+                <apex:input type="auto" value="{!brake}" html-max="480" html-min="0" label="Choose brake between visits" />       
+            </apex:pageBlockSection>
+            
+            <div align="center" draggable="false">       
+                <apex:commandButton action="{!calculate}" value="Calculate" />
+            </div>
+            
+            
+            <apex:pageBlockTable value="{!toShowVisits}" var="wrap" rendered="{!toShowVisits != null}" id="test">               
+                <apex:column value="{!wrap.oneVisit.StartDateTime__c}"/>
+                <apex:column value="{!wrap.oneVisit.EndDateTime__c}"/>
+                <apex:column value="{!wrap.oneVisit.Customer__c}"/>                
+            </apex:pageBlockTable>          
+            <div align="center">
+                <apex:commandButton action="{!save}" value="Save Visits" rendered="{!toShowVisits != null}"/>
+                <apex:commandButton value="SendEmail" action="{!sendEmail}"/>
+            </div>
+        </apex:pageBlock>        
+    </apex:form>
+    
+    <script type="text/javascript">
+    function selectAll(bx)
+    {
+        var cbs = document.getElementsByTagName('input');
+        for(var i=0; i < cbs.length; i++)
+        {
+            if(cbs[i].type == 'checkbox')
+            {
+                cbs[i].checked = bx.checked;
+            }
+        }
+       
+    }
+    </script>
+</apex:page>

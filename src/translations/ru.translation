@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label><!-- CFDS Cources --></label>
+        <name>CFDS_Cources</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Recruting --></label>
+        <name>Recruting</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- SFDC Cources --></label>
+        <name>SFDCCources</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- TestApp --></label>
+        <name>TestApp</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- jQuery DF10 --></label>
+        <name>jQuery_DF10</name>
+    </customApplications>
+    <customLabels>
+        <label>Добавить поле</label>
+        <name>COVA_AddRow</name>
+    </customLabels>
+    <customLabels>
+        <label>Консультант:</label>
+        <name>COVA_Consultant</name>
+    </customLabels>
+    <customLabels>
+        <label>Пятница</label>
+        <name>COVA_DayFriday</name>
+    </customLabels>
+    <customLabels>
+        <label>Понедельник</label>
+        <name>COVA_DayMonday</name>
+    </customLabels>
+    <customLabels>
+        <label>Суббота</label>
+        <name>COVA_DaySaturday</name>
+    </customLabels>
+    <customLabels>
+        <label>Воскресенье</label>
+        <name>COVA_DaySunday</name>
+    </customLabels>
+    <customLabels>
+        <label>Четверг</label>
+        <name>COVA_DayThursday</name>
+    </customLabels>
+    <customLabels>
+        <label>Вторник</label>
+        <name>COVA_DayTuesday</name>
+    </customLabels>
+    <customLabels>
+        <label>Среда</label>
+        <name>COVA_DayWednesday</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- COVA_Loading --></label>
+        <name>COVA_Loading</name>
+    </customLabels>
+    <customLabels>
+        <label>Не оплачиваемое</label>
+        <name>COVA_NonBillable</name>
+    </customLabels>
+    <customLabels>
+        <label>--Никто--</label>
+        <name>COVA_None</name>
+    </customLabels>
+    <customLabels>
+        <label>Проект - задание</label>
+        <name>COVA_ProjectTask</name>
+    </customLabels>
+    <customLabels>
+        <label>Сохранить</label>
+        <name>COVA_Save</name>
+    </customLabels>
+    <customLabels>
+        <label>Выбрать дату начала</label>
+        <name>COVA_SelectStartDate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- COVA_ShowAccountTasks --></label>
+        <name>COVA_ShowAccountTasks</name>
+    </customLabels>
+    <customLabels>
+        <label>Вы успешно сохранили изменения</label>
+        <name>COVA_SucceseMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ActionTypeDeleteIds --></label>
+        <name>SkyEditor2__ActionTypeDeleteIds</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ActionTypeSave --></label>
+        <name>SkyEditor2__ActionTypeSave</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Activate --></label>
+        <name>SkyEditor2__Activate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Add --></label>
+        <name>SkyEditor2__Add</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AllDay --></label>
+        <name>SkyEditor2__AllDay</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- back --></label>
+        <name>SkyEditor2__Back</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- BulkEdit --></label>
+        <name>SkyEditor2__BulkEdit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- BulkEditNoEditableFieldMessage --></label>
+        <name>SkyEditor2__BulkEditNoEditableFieldMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cancel --></label>
+        <name>SkyEditor2__Cancel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CanvasCheck --></label>
+        <name>SkyEditor2__CanvasCheck</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CanvasSet --></label>
+        <name>SkyEditor2__CanvasSet</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CanvasTitle --></label>
+        <name>SkyEditor2__CanvasTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CheckAllText --></label>
+        <name>SkyEditor2__CheckAllText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Clear --></label>
+        <name>SkyEditor2__Clear</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Clone --></label>
+        <name>SkyEditor2__Clone</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Close --></label>
+        <name>SkyEditor2__Close</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ConditionLabelName --></label>
+        <name>SkyEditor2__ConditionLabelName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ConditionSearchError --></label>
+        <name>SkyEditor2__ConditionSearchError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ConfirmMessage --></label>
+        <name>SkyEditor2__ConfirmMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CreatePDF --></label>
+        <name>SkyEditor2__CreatePDF</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DataNotFound --></label>
+        <name>SkyEditor2__DataNotFound</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DateFormatError --></label>
+        <name>SkyEditor2__DateFormatError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Deactivate --></label>
+        <name>SkyEditor2__Deactivate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete --></label>
+        <name>SkyEditor2__Delete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DeleteConfirm --></label>
+        <name>SkyEditor2__DeleteConfirm</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DeleteError --></label>
+        <name>SkyEditor2__DeleteError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DeleteRow --></label>
+        <name>SkyEditor2__DeleteRow</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DeleteWarning --></label>
+        <name>SkyEditor2__DeleteWarning</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Description --></label>
+        <name>SkyEditor2__Description</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DoSaveMessage --></label>
+        <name>SkyEditor2__DoSaveMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Edit --></label>
+        <name>SkyEditor2__Edit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EntityIsDeleted --></label>
+        <name>SkyEditor2__EntityIsDeleted</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EntityIsLocked --></label>
+        <name>SkyEditor2__EntityIsLocked</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ErrorMessage --></label>
+        <name>SkyEditor2__ErrorMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FieldNotFound --></label>
+        <name>SkyEditor2__FieldNotFound</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FieldSelection --></label>
+        <name>SkyEditor2__FieldSelection</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- GetMaster --></label>
+        <name>SkyEditor2__GetMaster</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- InequalityOperatorNullValue --></label>
+        <name>SkyEditor2__InequalityOperatorNullValue</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- InputRequired --></label>
+        <name>SkyEditor2__InputRequired</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- InsufficientAccessOrReadOnly --></label>
+        <name>SkyEditor2__InsufficientAccessOrReadOnly</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- InvalidNumberValueException --></label>
+        <name>SkyEditor2__InvalidNumberValueException</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- InvalidSession --></label>
+        <name>SkyEditor2__InvalidSession</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- InvalidTime --></label>
+        <name>SkyEditor2__InvalidTime</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LineNumber --></label>
+        <name>SkyEditor2__LineNumber</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LoadCriteria --></label>
+        <name>SkyEditor2__LoadCriteria</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LoadReferenceValue --></label>
+        <name>SkyEditor2__LoadReferenceValue</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LookupMultiResult --></label>
+        <name>SkyEditor2__LookupMultiResult</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LookupNoResult --></label>
+        <name>SkyEditor2__LookupNoResult</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Next --></label>
+        <name>SkyEditor2__Next</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- None --></label>
+        <name>SkyEditor2__None</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NoneSelectedText --></label>
+        <name>SkyEditor2__NoneSelectedText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NotRowSelectError --></label>
+        <name>SkyEditor2__NotRowSelectError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NotSelectError --></label>
+        <name>SkyEditor2__NotSelectError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NumberFormatError --></label>
+        <name>SkyEditor2__NumberFormatError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NumberValueEmpty --></label>
+        <name>SkyEditor2__NumberValueEmpty</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OperatorCo --></label>
+        <name>SkyEditor2__OperatorCo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OperatorEq --></label>
+        <name>SkyEditor2__OperatorEq</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OperatorEx --></label>
+        <name>SkyEditor2__OperatorEx</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OperatorGe --></label>
+        <name>SkyEditor2__OperatorGe</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OperatorGt --></label>
+        <name>SkyEditor2__OperatorGt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OperatorInc --></label>
+        <name>SkyEditor2__OperatorInc</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OperatorInx --></label>
+        <name>SkyEditor2__OperatorInx</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OperatorLe --></label>
+        <name>SkyEditor2__OperatorLe</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OperatorLt --></label>
+        <name>SkyEditor2__OperatorLt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OperatorNc --></label>
+        <name>SkyEditor2__OperatorNc</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OperatorNe --></label>
+        <name>SkyEditor2__OperatorNe</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OperatorNin --></label>
+        <name>SkyEditor2__OperatorNin</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OperatorNone --></label>
+        <name>SkyEditor2__OperatorNone</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OperatorSw --></label>
+        <name>SkyEditor2__OperatorSw</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OrderNotActivated --></label>
+        <name>SkyEditor2__OrderNotActivated</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PageNotSupportedOnS1 --></label>
+        <name>SkyEditor2__PageNotSupportedOnS1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PricebookChange --></label>
+        <name>SkyEditor2__PricebookChange</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- QueryPagingConfirmation --></label>
+        <name>SkyEditor2__QueryPagingConfirmation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- QueryPagingConfirmation --></label>
+        <name>SkyEditor2__QueryPagingConfirmationSettingLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReadConditionButtonDelete --></label>
+        <name>SkyEditor2__ReadConditionButtonDelete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReadConditionSetConditions --></label>
+        <name>SkyEditor2__ReadConditionSetConditions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RecordTypeName --></label>
+        <name>SkyEditor2__RecordTypeName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReduceOrder --></label>
+        <name>SkyEditor2__ReduceOrder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReferenceDataNotFound --></label>
+        <name>SkyEditor2__ReferenceDataNotFound</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Save Criteria --></label>
+        <name>SkyEditor2__RegistCriteria</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RemoteDataError --></label>
+        <name>SkyEditor2__RemoteDataError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Form --></label>
+        <name>SkyEditor2__Report</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReportObjectNotFound --></label>
+        <name>SkyEditor2__ReportObjectNotFound</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RequiredFieldMissing --></label>
+        <name>SkyEditor2__RequiredFieldMissing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Rewrite --></label>
+        <name>SkyEditor2__Rewrite</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RewriteCheck --></label>
+        <name>SkyEditor2__RewriteCheck</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RowCount --></label>
+        <name>SkyEditor2__RowCount</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RowCountPrefix --></label>
+        <name>SkyEditor2__RowCountPrefix</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RowCountSuffix --></label>
+        <name>SkyEditor2__RowCountSuffix</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Save --></label>
+        <name>SkyEditor2__Save</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SaveConditionButtonSave --></label>
+        <name>SkyEditor2__SaveConditionButtonSave</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SaveSuccess --></label>
+        <name>SkyEditor2__SaveSuccess</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SaveWarning --></label>
+        <name>SkyEditor2__SaveWarning</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SavedSuccess --></label>
+        <name>SkyEditor2__SavedSuccess</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Search --></label>
+        <name>SkyEditor2__Search</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SearchActionFailed --></label>
+        <name>SkyEditor2__SearchActionFailed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select --></label>
+        <name>SkyEditor2__SelectRecord</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SelectedText --></label>
+        <name>SkyEditor2__SelectedText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SelectionDelete --></label>
+        <name>SkyEditor2__SelectionDelete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SoqlError --></label>
+        <name>SkyEditor2__SoqlError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SoqlSobjectIsNotFound --></label>
+        <name>SkyEditor2__SoqlSobjectIsNotFound</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- StorageLimitExceeded --></label>
+        <name>SkyEditor2__StorageLimitExceeded</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SyncedQuote --></label>
+        <name>SkyEditor2__SyncedQuote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Filter Results... --></label>
+        <name>SkyEditor2__TableFilterPlaceholder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TitleSearch --></label>
+        <name>SkyEditor2__TitleSearch</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TitleSearchCondition --></label>
+        <name>SkyEditor2__TitleSearchCondition</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- To --></label>
+        <name>SkyEditor2__To</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UnCheckAllText --></label>
+        <name>SkyEditor2__UnCheckAllText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UnSyncedQuote --></label>
+        <name>SkyEditor2__UnSyncedQuote</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Undocumented --></label>
+        <name>SkyEditor2__Undocumented</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UnfilterableField --></label>
+        <name>SkyEditor2__UnfilterableField</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UnkownError --></label>
+        <name>SkyEditor2__UnkownError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UnsupportedWhereField --></label>
+        <name>SkyEditor2__UnsupportedWhereField</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UnsupportedWhereValueType --></label>
+        <name>SkyEditor2__UnsupportedWhereValueType</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UpdateMessage --></label>
+        <name>SkyEditor2__UpdateMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UserNotLicenced --></label>
+        <name>SkyEditor2__UserNotLicenced</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Value --></label>
+        <name>SkyEditor2__Value</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ValueCastError --></label>
+        <name>SkyEditor2__ValueCastError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ViewButton --></label>
+        <name>SkyEditor2__ViewButton</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- addNewProduct --></label>
+        <name>SkyEditor2__addNewProduct</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CancelButtonConfirmMessage --></label>
+        <name>SkyEditor2__cancelConfirmMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Change --></label>
+        <name>SkyEditor2__change</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- customCompleteDialogMessage --></label>
+        <name>SkyEditor2__customCompleteMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ConfirmDialogMessage --></label>
+        <name>SkyEditor2__customConfirmMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- font color --></label>
+        <name>SkyEditor2__fontColor</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- font weight --></label>
+        <name>SkyEditor2__fontWeight</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- nullSearchLabel --></label>
+        <name>SkyEditor2__nullSearchLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- opportunityDataNotFound --></label>
+        <name>SkyEditor2__opportunityDataNotFound</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- opportunityUpdateErrorMessage --></label>
+        <name>SkyEditor2__opportunityUpdateErrorMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- quotePdfSaveError --></label>
+        <name>SkyEditor2__quotePdfSaveError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- redirectPageTitle --></label>
+        <name>SkyEditor2__redirectPageTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- redirectSelectLabel --></label>
+        <name>SkyEditor2__redirectSelectLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- showDetailPage --></label>
+        <name>SkyEditor2__showDetailPage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FolderizeMobile SF1 Header Text --></label>
+        <name>sharem__FolderizeMobileHeader</name>
+    </customLabels>
+    <customTabs>
+        <label><!-- Time Entry --></label>
+        <name>Core_Value_Time_Emtry</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Metadata Browser --></label>
+        <name>MetadataBrowser</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Metadata Deploy Demo --></label>
+        <name>MetadataDeployDemo</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Metadata Retrieve Demo --></label>
+        <name>MetadataRetrieveDemo</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Planning Tour --></label>
+        <name>Planning_Tour</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- PortalIP --></label>
+        <name>PortalIP</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Setup --></label>
+        <name>Setup</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- TODO Tasks --></label>
+        <name>TODO_Tasks</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Time Entry --></label>
+        <name>Time_Entry</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- jQuery DF10 Demo Setup --></label>
+        <name>jQuery_DF10_Demo_Setup</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- todo --></label>
+        <name>todo</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- tsrrrrrrr --></label>
+        <name>tsrrrrrrr</name>
+    </customTabs>
+    <flowDefinitions>
+        <flows>
+            <fullName>Testflow-1</fullName>
+        </flows>
+        <fullName>Testflow</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>er-1</fullName>
+        </flows>
+        <fullName>er</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>Test_create_record-1</fullName>
+        </flows>
+        <fullName>Test_create_record</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>X11111-1</fullName>
+        </flows>
+        <fullName>X11111</fullName>
+    </flowDefinitions>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewAccount --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewCase --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewContact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewEvent --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewNote --></label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewOpportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewTask --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+</Translations>

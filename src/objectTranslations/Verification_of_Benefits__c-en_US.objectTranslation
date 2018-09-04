@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Verification of Benefits</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Verification of Benefits</value>
+    </caseValues>
+    <fields>
+        <label><!-- Address_Line_1 --></label>
+        <name>Address_Line_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Behavioral_ID --></label>
+        <name>Behavioral_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>City__c</name>
+    </fields>
+    <fields>
+        <label><!-- DOB --></label>
+        <name>DOB__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Name --></label>
+        <name>First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group --></label>
+        <name>Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ins_Company --></label>
+        <name>Ins_Company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ins_Phone --></label>
+        <name>Ins_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last_Name --></label>
+        <name>Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Medical_ID --></label>
+        <name>Medical_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone --></label>
+        <name>Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Policy_Type --></label>
+        <name>Policy_Type__c</name>
+        <picklistValues>
+            <masterLabel>Commercial Insurance Co.</masterLabel>
+            <translation><!-- Commercial Insurance Co. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dental Maintenance Organization</masterLabel>
+            <translation><!-- Dental Maintenance Organization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disability</masterLabel>
+            <translation><!-- Disability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exclusive Provider Organization (EPO)</masterLabel>
+            <translation><!-- Exclusive Provider Organization (EPO) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Federal Employees Program</masterLabel>
+            <translation><!-- Federal Employees Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HMO</masterLabel>
+            <translation><!-- HMO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HMO Medicare Risk;Indemnity Insurance</masterLabel>
+            <translation><!-- HMO Medicare Risk;Indemnity Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liability Medical</masterLabel>
+            <translation><!-- Liability Medical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medicaid;Medicare Part A</masterLabel>
+            <translation><!-- Medicaid;Medicare Part A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medicare Part B</masterLabel>
+            <translation><!-- Medicare Part B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mutually Defined</masterLabel>
+            <translation><!-- Mutually Defined --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Federal Program</masterLabel>
+            <translation><!-- Other Federal Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Non-Federal Programs</masterLabel>
+            <translation><!-- Other Non-Federal Programs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Point of Service (POS)</masterLabel>
+            <translation><!-- Point of Service (POS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preferred Provider Organization (PPO)</masterLabel>
+            <translation><!-- Preferred Provider Organization (PPO) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Title V;TRICARE (CHAMPUS)</masterLabel>
+            <translation><!-- Title V;TRICARE (CHAMPUS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Veterans Affairs Plan</masterLabel>
+            <translation><!-- Veterans Affairs Plan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Workers’ Compensation Health Claim</masterLabel>
+            <translation><!-- Workers’ Compensation Health Claim --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Relationship --></label>
+        <name>Relationship__c</name>
+        <picklistValues>
+            <masterLabel>Child</masterLabel>
+            <translation><!-- Child --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self</masterLabel>
+            <translation><!-- Self --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spouse</masterLabel>
+            <translation><!-- Spouse --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sex --></label>
+        <name>Sex__c</name>
+        <picklistValues>
+            <masterLabel>F</masterLabel>
+            <translation><!-- F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M</masterLabel>
+            <translation><!-- M --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>State__c</name>
+        <picklistValues>
+            <masterLabel>AK</masterLabel>
+            <translation><!-- AK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AL</masterLabel>
+            <translation><!-- AL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AR</masterLabel>
+            <translation><!-- AR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AZ</masterLabel>
+            <translation><!-- AZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO</masterLabel>
+            <translation><!-- CO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CT</masterLabel>
+            <translation><!-- CT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE</masterLabel>
+            <translation><!-- DE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL</masterLabel>
+            <translation><!-- FL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GA</masterLabel>
+            <translation><!-- GA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HI</masterLabel>
+            <translation><!-- HI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID</masterLabel>
+            <translation><!-- ID --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IL</masterLabel>
+            <translation><!-- IL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN</masterLabel>
+            <translation><!-- IN --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sub_Addr_Line_1 --></label>
+        <name>Sub_Addr_Line_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sub_City --></label>
+        <name>Sub_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sub_DOB --></label>
+        <name>Sub_DOB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sub_First_Name --></label>
+        <name>Sub_First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sub_Last_Name --></label>
+        <name>Sub_Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sub_Phone --></label>
+        <name>Sub_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sub_Sex --></label>
+        <name>Sub_Sex__c</name>
+        <picklistValues>
+            <masterLabel>F</masterLabel>
+            <translation><!-- F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M</masterLabel>
+            <translation><!-- M --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sub_State --></label>
+        <name>Sub_State__c</name>
+        <picklistValues>
+            <masterLabel>AK</masterLabel>
+            <translation><!-- AK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AL</masterLabel>
+            <translation><!-- AL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AR</masterLabel>
+            <translation><!-- AR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AZ</masterLabel>
+            <translation><!-- AZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA</masterLabel>
+            <translation><!-- CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO</masterLabel>
+            <translation><!-- CO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CT</masterLabel>
+            <translation><!-- CT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE</masterLabel>
+            <translation><!-- DE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL</masterLabel>
+            <translation><!-- FL --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sub_Zip --></label>
+        <name>Sub_Zip__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zip --></label>
+        <name>Zip__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

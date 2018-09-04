@@ -1,0 +1,13 @@
+<aura:component description="LCT_TimeEntry" implements="flexipage:availableForAllPageTypes,force:appHostable"
+                controller="LCT_TimeEntryController">
+    <div class="slds-form-element">
+    <label class="slds-form-element__label" for="input-unique-id">Form Element Label</label>
+    <div class="slds-form-element__control">
+        <input type="text" id="input-unique-id" class="slds-input" placeholder="Placeholder Text" />
+    </div>
+    </div>
+
+    <div class="slds-form-element__control">
+        <input type="text" class="slds-input" placeholder="Placeholder Text 257" />
+    </div>
+</aura:component>

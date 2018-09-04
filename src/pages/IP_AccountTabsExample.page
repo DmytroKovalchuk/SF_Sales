@@ -1,0 +1,29 @@
+<!--
+ - Created by dkovalchuk on 10-Apr-18.
+ -->
+
+<apex:page id="IP_AccountTabsExample" controller="IP_AccountTabsExampleController">
+    <apex:form >
+        <apex:tabPanel switchType="client" selectedTab="sch" id="dataTabPanel">
+            <apex:tab label="Tab1" name="Account 1" id="sch0">
+               <apex:outputField value="{!accounts[0].Name}"/>
+            </apex:tab>
+            <apex:tab label="Tab2" name="Account 2" id="sch1">
+                <apex:outputField value="{!accounts[1].Name}"/>
+            </apex:tab>
+            <apex:tab label="Tab3" name="Account 3" id="sch2">
+                <apex:outputField value="{!accounts[2].Name}"/>
+            </apex:tab>
+            <apex:tab label="Tab4" name="Account 4" id="sch3">
+                <apex:outputField value="{!accounts[3].Name}"/>
+            </apex:tab>
+            <apex:tab label="Tab5" name="Account 5" id="sch4">
+                <apex:outputField value="{!accounts[4].Name}"/>
+            </apex:tab>
+
+
+        </apex:tabPanel>
+        <apex:dynamicComponent componentValue="{!tabs}"/>
+
+    </apex:form>
+</apex:page>

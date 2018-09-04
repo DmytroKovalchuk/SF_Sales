@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>TestMasterDetail</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>TestMasterDetail</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Test_del__c</name>
+        <relationshipLabel><!-- TestMasterDetail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>rrr_del__c</name>
+        <relationshipLabel><!-- TestMasterDetail --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Test1</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>TestMasterDetail Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- ByTest --></label>
+        <name>ByTest</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ByTest1 --></label>
+        <name>ByTest1</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>DPS</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>DPS</value>
+    </caseValues>
+    <fields>
+        <label><!-- App Url --></label>
+        <name>App_Url__c</name>
+    </fields>
+    <fields>
+        <label><!-- DPS Logo --></label>
+        <name>DPS_Logo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Folio Conversion --></label>
+        <name>Folio_Conversion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Out --></label>
+        <name>Time_Out__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Period --></label>
+        <name>Time_Period__c</name>
+    </fields>
+    <fields>
+        <label><!-- Top Percent --></label>
+        <name>Top_Percent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Top % Salespeople --></label>
+        <name>Top_Salespeople__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

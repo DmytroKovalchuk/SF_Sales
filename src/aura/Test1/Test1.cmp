@@ -1,0 +1,6 @@
+<aura:component implements="flexipage:availableForAllPageTypes" controller="LCT_TimeEntryController" >
+    <div class="slds-grid slds-wrap slds-grid_pull-padded">
+        </div>
+
+
+</aura:component>
