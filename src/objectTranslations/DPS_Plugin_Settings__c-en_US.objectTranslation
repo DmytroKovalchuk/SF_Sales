@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>DPS Plugin Settings</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>DPS Plugin Settings</value>
+    </caseValues>
+    <fields>
+        <label><!-- DPS Plugin Version --></label>
+        <name>DPS_Plugin_Version__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

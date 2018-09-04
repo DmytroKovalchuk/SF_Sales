@@ -1,0 +1,86 @@
+<apex:page controller="SetupController" action="{!init}" showHeader="true" sidebar="true">
+    <apex:form >
+        <apex:pageMessages id="messages" />
+        <apex:pageBlock title="DPS Settings" id="eventNamesBlock">
+            <apex:pageBlockSection columns="2" collapsible="false">
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel >Event Timeout (in minutes):</apex:outputLabel>
+                    <apex:inputText value="{!eventTimeout}"></apex:inputText>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                             <span class="helpButtonOn" id="Name-_help">
+                                      <label>App Url:</label>
+                                      <img src="/s.gif" alt="" class="helpOrb" title=""/>
+                                 <script type="text/javascript">sfdcPage.setHelp('Name', '1. Must be in the syntax <i>urlscheme</i>://v1/slot/… <br/> For example: myapp://v1/slot/library or myapp//v1/slot/storefront or com.company.sfdc://v1/slot/library <br/> 2. <i>urlscheme</i> must match the “Optional URL Scheme” for your app as set in DPS App Builder');</script>
+                             </span> 
+
+                    <apex:inputText value="{!deepLinkUrl}"></apex:inputText>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel >Folio Conversion:</apex:outputLabel>
+                    <apex:inputCheckbox value="{!folioConversion}"/>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem helpText="Enter a percentage to use for the ‘Top Salesperson’ reports.">
+                    <apex:outputLabel >Top Percent Salespeople:</apex:outputLabel>
+                    <apex:inputText value="{!topPercent}"></apex:inputText>
+                </apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection columns="2" collapsible="false">
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel >Imported Event Names:</apex:outputLabel>
+                    <apex:panelGrid columns="3" id="selectGrid">
+                        <apex:outputLabel >Disabled:</apex:outputLabel>
+                        <apex:outputLabel />
+                        <apex:outputLabel >Enabled:</apex:outputLabel>
+                        <apex:selectList id="sel1" value="{!leftselected}" multiselect="true" style="width:100px" size="5" label="Disabled">
+                            <apex:selectOptions value="{!unselectedvalues}" />
+                        </apex:selectList>
+                        <apex:panelGroup >
+                            <br/>
+                            <apex:image value="{!$Resource.multiselected}">
+                                <apex:actionSupport event="onclick" action="{!selectclick}" reRender="selectGrid"/>
+                            </apex:image>
+                            <br/><br/>
+                            <apex:image value="{!$Resource.multiunselected}">
+                                <apex:actionSupport event="onclick" action="{!unselectclick}" reRender="selectGrid"/>
+                            </apex:image>
+                        </apex:panelGroup>
+                        <apex:selectList id="sel2" value="{!rightselected}" multiselect="true" style="width:100px" size="5">
+                            <apex:selectOptions value="{!SelectedValues}" />
+                        </apex:selectList>
+                    </apex:panelGrid>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem helpText="Enter the Opportunity time period for ‘Top Salesperson’ reports.">
+                    <apex:outputLabel >Top Salespeople Time Period:</apex:outputLabel>
+                    <apex:selectlist value="{!timePeriod}" size="1">
+                    <apex:selectOption itemvalue="Current FQ"/>
+                    <apex:selectOption itemvalue="Previous FQ"/>                    
+                    <apex:selectOption itemvalue="Current FY"/>
+                    <apex:selectOption itemvalue="Previous FY"/>
+                    </apex:selectlist>
+                </apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+            <apex:pageBlockButtons location="bottom">
+                <apex:commandButton value="Save" action="{!save}" rerender="messages"/>
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+    </apex:form>
+ 
+    <apex:form enctype="multipart/form-data">
+        <apex:pageBlock title="Upload a Logo">
+            <apex:pageBlockButtons location="bottom">
+                <apex:commandButton action="{!upload}" value="Upload"/>
+            </apex:pageBlockButtons>
+            <apex:pageBlockSection showHeader="false" columns="1" id="block1">
+                <apex:pageBlockSectionItem >
+                    <apex:image url="{!imageURL}" id="logo">
+                    </apex:image>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="File (Max size: 5 MB)" for="file"/>
+                    <apex:inputFile value="{!document.body}" filename="{!document.name}" id="file"/>
+                </apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

@@ -1,0 +1,8 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:appHostable,flexipage:availableForRecordHome,force:hasRecordId" controller="COVA_AccountTaskApexController" access="global" >
+	<aura:attribute name="recordId" type="Id" />
+    <lightning:layout >
+    
+    </lightning:layout>
+    
+   <aura:handler name="init" value="{!this}" action="{!c.initMethod}"/> 
+</aura:component>

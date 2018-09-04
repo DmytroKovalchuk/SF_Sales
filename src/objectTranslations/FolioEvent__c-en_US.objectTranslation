@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>FolioEvent</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>FolioEvents</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- FolioEvents --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Lead --></label>
+        <name>Lead__c</name>
+        <relationshipLabel><!-- FolioEvents --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Minutes in Event --></label>
+        <name>Minutes_in_Event__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Event Time --></label>
+        <name>Next_Event_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Folio Events --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Seconds in Event --></label>
+        <name>Seconds_in_Event__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time in Event --></label>
+        <name>Time_in_Event__c</name>
+    </fields>
+    <fields>
+        <label><!-- Top Salesperson --></label>
+        <name>Top_Salesperson__c</name>
+    </fields>
+    <fields>
+        <label><!-- Slide Stack Title --></label>
+        <name>articleStackTitle__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Name --></label>
+        <name>eventName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Time --></label>
+        <name>eventTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Presentation Name --></label>
+        <name>issueName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Issuer Id --></label>
+        <name>issuerId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Slide Stack Id --></label>
+        <name>stackId__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,1 @@
+trigger TestTriggerAccountMetaServiceeee on Account (after insert){ MetadataHandler.execute(Trigger.new);}

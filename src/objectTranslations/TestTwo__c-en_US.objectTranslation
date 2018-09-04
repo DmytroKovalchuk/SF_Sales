@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>TestTwo</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>TestTwo</value>
+    </caseValues>
+    <fields>
+        <label><!-- ForTestLookUps --></label>
+        <name>Two__c</name>
+        <relationshipLabel><!-- TestTwo --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ForTestLookUps --></label>
+        <name>jjj__c</name>
+        <relationshipLabel><!-- TestTwo (ForTestLookUps) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ForTestLookUps --></label>
+        <name>kkk__c</name>
+        <relationshipLabel><!-- TestTwo (ForTestLookUps) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>rrr__c</name>
+        <relationshipLabel><!-- TestTwo --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

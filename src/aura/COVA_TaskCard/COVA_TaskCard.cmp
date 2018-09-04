@@ -1,0 +1,8 @@
+<aura:component >
+	<aura:attribute name="taskId" type="COVA_AccountTask__c" />     
+    <lightning:card variant="Narrow" title="{!v.account.Name}"> 
+         <aura:set attribute="actions">
+            <lightning:button name="Show" label="Show Account Tasks" onclick="{!c.showTaskDetails}" /> 
+        </aura:set> 
+    </lightning:card> 	
+</aura:component>

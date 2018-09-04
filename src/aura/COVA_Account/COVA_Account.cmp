@@ -1,0 +1,9 @@
+<aura:component >
+    <aura:attribute name="account" type="Account" />
+    
+    <lightning:card variant="Narrow" title="{!v.account.Name}"> 
+         <aura:set attribute="actions">
+            <lightning:button name="Show" label="Show Account Tasks" onclick="{!c.showTasks}" /> 
+        </aura:set> 
+    </lightning:card> 	
+</aura:component>

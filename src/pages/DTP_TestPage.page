@@ -1,0 +1,8 @@
+<apex:page controller="DTP_TestPageController" >
+    <apex:form >
+    <apex:pageBlock >
+        222
+      {!TestWrapper.selectedObjectName}
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

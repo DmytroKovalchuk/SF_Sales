@@ -1,0 +1,15 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:appHostable" controller="COVA_AccountTaskApexController" access="global" >
+    
+    <aura:handler name="init" value="{!this}" action="{!c.initMethod}" />
+    
+    <aura:attribute name="account" type="Account[]"/>   
+    
+    <lightning:layout >
+        <lightning:layoutItem >
+            <aura:iteration var="acc" items="{!v.account}">                
+                <c:COVA_Account account="{!acc}"/> 
+            </aura:iteration>
+        </lightning:layoutItem> 
+    </lightning:layout>
+    
+</aura:component>

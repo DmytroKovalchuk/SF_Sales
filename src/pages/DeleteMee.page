@@ -1,0 +1,17 @@
+<apex:page controller="DeleteMe">
+   <apex:form >
+      <apex:pageBlock >
+        Type Account Name Here :<apex:inputText value="{!inputtext}" >
+          <apex:actionSupport action="{!actionSupMethod}" event="onkeyup" reRender="outptText" />
+        </apex:inputtext>
+      </apex:pageBlock>  
+
+    <apex:pageblock >
+      <apex:pageblocktable value="{!accList}" var="acc" id="outptText">
+        <apex:column value="{!acc.name}"/>
+        <apex:column value="{!acc.accountnumber}"/>
+      </apex:pageblocktable>
+    </apex:pageblock>
+  </apex:form>
+    
+</apex:page>

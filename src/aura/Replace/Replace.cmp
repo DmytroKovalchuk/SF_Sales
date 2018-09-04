@@ -1,0 +1,8 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes" access="global" >
+    <div align="center">
+    <lightning:layout >
+        
+    </lightning:layout>
+    </div>
+	
+</aura:component>

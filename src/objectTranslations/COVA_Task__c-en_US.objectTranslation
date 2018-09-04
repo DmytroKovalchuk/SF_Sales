@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>COVA_Task</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>COVA_Tasks</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Test --></label>
+        <name>Test</name>
+    </fieldSets>
+    <fields>
+        <label><!-- COVA_BillingRule --></label>
+        <name>COVA_BillingRule__c</name>
+        <relationshipLabel><!-- COVA_Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- COVA_Consultant --></label>
+        <name>COVA_Consultant__c</name>
+        <relationshipLabel><!-- COVA_Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- COVA_Project --></label>
+        <name>COVA_Project__c</name>
+        <relationshipLabel><!-- COVA_Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- COVA_UniqueTaskAndProject --></label>
+        <name>COVA_UniqueTaskAndProject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>rg__c</name>
+        <relationshipLabel><!-- COVA_Tasks --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>COVA_Task Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Log A Note --></label>
+        <name>Test</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Add Record --></label>
+        <name>rrr</name>
+    </quickActions>
+    <sharingReasons>
+        <label><!-- Test --></label>
+        <name>Test</name>
+    </sharingReasons>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Test --></label>
+        <name>Test</name>
+    </webLinks>
+</CustomObjectTranslation>

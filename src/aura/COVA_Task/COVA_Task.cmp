@@ -1,0 +1,9 @@
+<aura:component >
+    
+    <aura:attribute name="account" type="Account" />
+    
+    <lightning:card variant="Narrow" title="{!v.account.Name}">
+        <p class="slds-p-horizontal--small"> {!v.account.Name} </p>      
+    </lightning:card>
+	
+</aura:component>

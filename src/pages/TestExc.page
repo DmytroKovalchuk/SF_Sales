@@ -1,0 +1,2 @@
+<apex:page standardController="COVA_Task__c" extensions="TestExctenssion" >
+</apex:page>

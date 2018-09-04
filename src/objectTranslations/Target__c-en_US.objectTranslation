@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Target Customer</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Target Customers</value>
+    </caseValues>
+    <fields>
+        <label><!-- Customer --></label>
+        <name>Customer__c</name>
+        <relationshipLabel><!-- Target Customers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Representative --></label>
+        <name>Representative__c</name>
+        <relationshipLabel><!-- Target Customers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- unique --></label>
+        <name>unique__c</name>
+    </fields>
+    <fields>
+        <label><!-- Visit --></label>
+        <name>visit__c</name>
+        <relationshipLabel><!-- Target Customers --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Target Customer Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

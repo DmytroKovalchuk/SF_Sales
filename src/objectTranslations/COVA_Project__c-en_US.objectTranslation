@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>COVA_Project</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>COVA_Projects</value>
+    </caseValues>
+    <fields>
+        <label><!-- COVA_Description --></label>
+        <name>COVA_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- COVA_Opportunity --></label>
+        <name>COVA_Opportunity__c</name>
+        <relationshipLabel><!-- COVA_Projects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- COVA_Primary Contact --></label>
+        <name>COVA_PrimaryContact__c</name>
+        <relationshipLabel><!-- COVA_Projects --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Project Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

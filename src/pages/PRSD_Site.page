@@ -1,0 +1,10 @@
+<apex:page controller="PRSD_TestInvestigateController" showHeader="false" >
+    <apex:form >
+        <apex:outputText escape="false" value="{!htmlValue}" >
+       
+        </apex:outputText>
+   <!--<apex:iframe 
+           src="https://demirov-dev-ed--c.eu11.content.force.com/email/templaterenderer?id=00X0Y000000sKNV&base_href=https%3A%2F%2Fdemirov-dev-ed.my.salesforce.com&preview_frame=previewFrame&render_type=REPLACED_HTML_BODY&setupid=CommunicationTemplatesEmail" 
+           ></apex:iframe>-->
+         </apex:form>
+</apex:page>
